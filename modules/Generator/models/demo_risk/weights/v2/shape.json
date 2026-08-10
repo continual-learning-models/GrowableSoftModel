@@ -1,0 +1,1 @@
+{"features": ["amount", "night", "foreign"], "mode": "categorical", "vocab": ["HIGH", "LOW"]}

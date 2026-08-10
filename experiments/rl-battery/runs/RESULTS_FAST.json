@@ -1,0 +1,134 @@
+{
+ "cells": [
+  {
+   "trainer": "ppo",
+   "world": "staged_expansion",
+   "seed": 0,
+   "curve": [
+    9.0,
+    9.875,
+    10.6,
+    11.4,
+    11.05,
+    11.9
+   ],
+   "final": 17.0,
+   "baseline": 11.0
+  },
+  {
+   "trainer": "ppo",
+   "world": "stationary",
+   "seed": 0,
+   "curve": [
+    9.125,
+    10.0,
+    10.05,
+    10.75,
+    10.8,
+    11.5
+   ],
+   "final": 18.5,
+   "baseline": 9.166666666666666
+  },
+  {
+   "trainer": "ppo",
+   "world": "sensor_arrival",
+   "seed": 0,
+   "curve": [
+    9.875,
+    10.3125,
+    10.6,
+    11.15,
+    11.1,
+    11.25
+   ],
+   "final": 14.5,
+   "baseline": 6.333333333333333
+  },
+  {
+   "trainer": "grpo",
+   "world": "staged_expansion",
+   "seed": 0,
+   "curve": [
+    9.0,
+    9.9375,
+    10.65,
+    11.4,
+    11.05,
+    11.9
+   ],
+   "final": 18.5,
+   "baseline": 11.0
+  },
+  {
+   "trainer": "grpo",
+   "world": "stationary",
+   "seed": 0,
+   "curve": [
+    9.125,
+    10.0,
+    10.05,
+    10.75,
+    10.8,
+    11.5
+   ],
+   "final": 17.666666666666668,
+   "baseline": 9.166666666666666
+  },
+  {
+   "trainer": "grpo",
+   "world": "sensor_arrival",
+   "seed": 0,
+   "curve": [
+    9.875,
+    10.3125,
+    10.6,
+    11.1,
+    11.05,
+    11.2
+   ],
+   "final": 7.833333333333333,
+   "baseline": 6.333333333333333
+  }
+ ],
+ "growth": [
+  {
+   "seed": 0,
+   "grow_final": 14.166666666666666,
+   "plain_final": 14.166666666666666,
+   "adoptions": 0
+  }
+ ],
+ "silence": [
+  {
+   "seed": 0,
+   "clone_wins": 0
+  }
+ ],
+ "mixed": [
+  {
+   "seed": 0,
+   "agree_teach": 1.0,
+   "agree_after_rl": 1.0,
+   "ret_close": 18.5,
+   "chance": 0.3333333333333333,
+   "floor_ret": 8.533333333333333
+  }
+ ],
+ "verdict": {
+  "L-B1": true,
+  "L-B1 detail": {
+   "ppo/staged_expansion": 1,
+   "ppo/stationary": 1,
+   "ppo/sensor_arrival": 1,
+   "grpo/staged_expansion": 1,
+   "grpo/stationary": 1,
+   "grpo/sensor_arrival": 1
+  },
+  "L-B2": true,
+  "L-B3": true,
+  "L-B4": true,
+  "ALL": true,
+  "fast_preflight": true
+ }
+}

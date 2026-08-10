@@ -1,0 +1,56 @@
+{
+  "rules": [
+    {
+      "conditions": [
+        {
+          "feature": "night",
+          "op": "==",
+          "threshold": 0.0
+        },
+        {
+          "feature": "foreign",
+          "op": "==",
+          "threshold": 1.0
+        }
+      ],
+      "target": "HIGH",
+      "confidence": 1.0,
+      "support": 4
+    },
+    {
+      "conditions": [
+        {
+          "feature": "amount",
+          "op": "<=",
+          "threshold": 450.0
+        }
+      ],
+      "target": "LOW",
+      "confidence": 1.0,
+      "support": 6
+    },
+    {
+      "conditions": [
+        {
+          "feature": "foreign",
+          "op": "==",
+          "threshold": 0.0
+        }
+      ],
+      "target": "HIGH",
+      "confidence": 1.0,
+      "support": 2
+    }
+  ],
+  "default": "HIGH",
+  "default_confidence": 0.5,
+  "features": [
+    "amount",
+    "night",
+    "foreign"
+  ],
+  "classes": [
+    "HIGH",
+    "LOW"
+  ]
+}

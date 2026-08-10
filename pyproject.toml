@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "growablesoftmodel"
+version = "1.0.0"
+description = "A growable soft-model system: evolvable, continually-trainable neural models that a generative-AI brain can use and teach, growing their own topology under a reality gate."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = [
+    "soft model", "continual learning", "growing neural networks",
+    "network topology", "tool use", "concept drift", "LLM agents",
+    "Model Context Protocol", "self-shaping models",
+]
+dependencies = [
+    "numpy>=1.26",
+]
+
+# Development/test dependencies — not needed to USE the software,
+# only to run the test suite. Install with:  pip install ".[test]"
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+torch = ["torch"]
+# legacy REST surface (generator/api.py) — optional, never
+# required by MCP/CLI/facade (owner no-REST ruling)
+rest = ["fastapi>=0.110", "uvicorn>=0.29", "pydantic>=2.6"]
+
+[project.urls]
+Repository = "https://github.com/continual-learning-models/GrowableSoftModel"
+
+# GSM-I0 (DESIGN_SOFTMODELSYSTEM Part II): explicit package
+# list — the old find-filter missed the relocated entry layer
+# (cli/, mcp/, standard_methods/). Editable-install into a
+# DEDICATED venv only (generic top-level names; the I0 rule).
+[tool.setuptools]
+packages = [
+    "core", "core.plasticity", "core.substrates",
+    "cli", "mcp", "standard_methods",
+    "generator",
+    "engine", "engine.backends", "engine.spu",
+    "reference_net", "reference_net.spu", "reference_net.growthpolicy",
+]
+
+[tool.setuptools.package-dir]
+"core" = "core"
+"cli" = "cli"
+"mcp" = "mcp"
+"standard_methods" = "standard_methods"
+"generator" = "modules/Generator/generator"
+"engine" = "modules/Engine/engine"
+"reference_net" = "modules/ReferenceNet/reference_net"
+
+[project.scripts]
+softmodel = "generator.cli:main"
+softmodel-mcp = "generator.mcp_server:main"

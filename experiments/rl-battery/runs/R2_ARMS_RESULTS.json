@@ -1,0 +1,50 @@
+{
+ "arm_kl": [
+  {
+   "seed": 0,
+   "free": {
+    "final": 22.166666666666668,
+    "drift": 17.923665612255682
+   },
+   "anchored": {
+    "final": 25.5,
+    "drift": 16.852335223186678
+   },
+   "baseline": 9.166666666666666
+  },
+  {
+   "seed": 1,
+   "free": {
+    "final": 22.833333333333332,
+    "drift": 16.66238187004373
+   },
+   "anchored": {
+    "final": 26.833333333333332,
+    "drift": 16.91910347603855
+   },
+   "baseline": 12.5
+  },
+  {
+   "seed": 2,
+   "free": {
+    "final": 25.666666666666668,
+    "drift": 16.534007997565027
+   },
+   "anchored": {
+    "final": 24.666666666666668,
+    "drift": 16.477739748249256
+   },
+   "baseline": 8.833333333333334
+  }
+ ],
+ "arm_il": {
+  "seq_ok": true,
+  "rule_named": true
+ },
+ "verdict": {
+  "L-R2K-a": true,
+  "L-R2K-b": true,
+  "L-R2I": true,
+  "ALL": true
+ }
+}

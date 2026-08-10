@@ -1,0 +1,46 @@
+{
+  "model_id": "demo_risk_rules",
+  "description": "",
+  "active": "v3",
+  "versions": [
+    {
+      "version": "v0",
+      "parent": null,
+      "score": null,
+      "note": "untrained",
+      "created": 1782969329.777558
+    },
+    {
+      "version": "v1",
+      "parent": "v0",
+      "score": 1.0,
+      "note": "taught 12 examples",
+      "created": 1782969329.842261
+    },
+    {
+      "version": "v2",
+      "parent": "v1",
+      "score": 0.75,
+      "note": "taught 6 examples",
+      "created": 1782969329.8699698
+    },
+    {
+      "version": "v3",
+      "parent": "v1",
+      "score": 1.0,
+      "note": "taught 12 examples (window=12)",
+      "created": 1782969329.893235
+    }
+  ],
+  "drift": {
+    "model_id": "demo_risk_rules",
+    "active_version": "v1",
+    "recent_metric": 0.5,
+    "recent_n_evaluated": 8,
+    "baseline_metric": 1.0,
+    "drift_tolerance": 0.15,
+    "drifted": true,
+    "needs_reteach": true,
+    "checked_at": 1782969329.872087
+  }
+}

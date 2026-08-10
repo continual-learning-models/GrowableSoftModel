@@ -1,0 +1,8 @@
+{"input": {"amount": 120, "night": 0, "foreign": 0}, "target": "LOW"}
+{"input": {"amount": 80, "night": 1, "foreign": 0}, "target": "LOW"}
+{"input": {"amount": 220, "night": 0, "foreign": 1}, "target": "LOW"}
+{"input": {"amount": 60, "night": 0, "foreign": 0}, "target": "LOW"}
+{"input": {"amount": 800, "night": 0, "foreign": 0}, "target": "HIGH"}
+{"input": {"amount": 650, "night": 1, "foreign": 0}, "target": "HIGH"}
+{"input": {"amount": 70, "night": 1, "foreign": 1}, "target": "HIGH"}
+{"input": {"amount": 1500, "night": 0, "foreign": 0}, "target": "HIGH"}

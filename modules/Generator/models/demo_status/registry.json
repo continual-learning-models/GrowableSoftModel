@@ -1,0 +1,35 @@
+{
+  "model_id": "demo_status",
+  "description": "",
+  "active": "v1",
+  "versions": [
+    {
+      "version": "v0",
+      "parent": null,
+      "score": null,
+      "note": "untrained",
+      "created": 1783229428.472165
+    },
+    {
+      "version": "v1",
+      "parent": "v0",
+      "score": 0.5,
+      "note": "taught 4 examples",
+      "created": 1783229428.47298
+    },
+    {
+      "version": "v2",
+      "parent": "v1",
+      "score": 1.0,
+      "note": "taught 4 examples",
+      "created": 1783229428.4742432
+    },
+    {
+      "version": "v3",
+      "parent": "v2",
+      "score": 1.0,
+      "note": "taught 2 examples",
+      "created": 1783229428.4755762
+    }
+  ]
+}

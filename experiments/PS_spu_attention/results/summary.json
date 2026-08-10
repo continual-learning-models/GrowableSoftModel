@@ -1,0 +1,43 @@
+{
+ "rows": [
+  {
+   "seed": 7,
+   "mse_with": 0.40527390977003724,
+   "mse_without_budget_fair": 0.3107993559839813,
+   "a_wins": false,
+   "extra_steps": 2935,
+   "ratio": 8.385663082437276,
+   "events_root1": 200,
+   "events_root2": 200,
+   "exec_ok": true,
+   "p3_ok": false,
+   "p4_ok": true
+  },
+  {
+   "seed": 8,
+   "mse_with": 0.3483945272138452,
+   "mse_without_budget_fair": 0.25181237719988026,
+   "a_wins": false,
+   "extra_steps": 2935,
+   "ratio": 8.385663082437276,
+   "events_root1": 200,
+   "events_root2": 200,
+   "exec_ok": true,
+   "p3_ok": false,
+   "p4_ok": true
+  },
+  {
+   "seed": 9,
+   "mse_with": 0.5685322555902448,
+   "mse_without_budget_fair": 0.35707724823450826,
+   "a_wins": false,
+   "extra_steps": 2935,
+   "ratio": 8.385663082437276,
+   "events_root1": 200,
+   "events_root2": 200,
+   "exec_ok": true,
+   "p3_ok": false,
+   "p4_ok": true
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "map": {
+    "shipped out": "SHIPPED",
+    "delivered": "DELIVERED",
+    "cancelled by user": "CANCELLED",
+    "awaiting payment": "PENDING",
+    "on its way": "SHIPPED",
+    "arrived at destination": "DELIVERED",
+    "order canceled": "CANCELLED",
+    "not yet processed": "PENDING",
+    "blah blah": "NOISE",
+    "random text": "NOISE"
+  },
+  "trained_on": 2
+}

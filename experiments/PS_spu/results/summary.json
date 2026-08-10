@@ -1,0 +1,308 @@
+{
+ "scenes": {
+  "noisy": [
+   {
+    "with": {
+     "seed": 7,
+     "with_spu": true,
+     "steps": 700,
+     "wall_s": 0.5591519169975072,
+     "mse_clean": 0.6552344742803385,
+     "mse_corrupted": 0.7689381007580685,
+     "degradation": 1.1735312028607983,
+     "inner_net_eval_std": {
+      "root/1": 1.2753656722398665,
+      "root/2": 0.6156776497428289
+     },
+     "report": {
+      "processed_steps": 350,
+      "skips": {
+       "root": 149,
+       "scalers_unfit": 2,
+       "warming_up": 198,
+       "matured": 350
+      },
+      "interference": {
+       "steps": 350,
+       "mse_delta_mean": 0.0011521198470745794,
+       "mse_delta_max": 0.009694134330524518
+      }
+     },
+     "budget": {
+      "ratio": 3.1717171717171717,
+      "extra_steps_granted": 1111
+     },
+     "ps3_events_ok": true,
+     "ps3_final_ok": true,
+     "ps4_budget_ok": true,
+     "ps4_summaries_ok": true
+    },
+    "without": {
+     "seed": 7,
+     "with_spu": false,
+     "steps": 1811,
+     "wall_s": 0.9284394999995129,
+     "mse_clean": 2.313329452126672,
+     "mse_corrupted": 1.793357782029501,
+     "degradation": 0.7752280075718767,
+     "inner_net_eval_std": {
+      "root/1": 3.4767261038066577,
+      "root/2": 1.4149910456837658
+     }
+    }
+   },
+   {
+    "with": {
+     "seed": 8,
+     "with_spu": true,
+     "steps": 700,
+     "wall_s": 0.5638430420003715,
+     "mse_clean": 0.6077551272434794,
+     "mse_corrupted": 0.6114742521518131,
+     "degradation": 1.0061194463717684,
+     "inner_net_eval_std": {
+      "root/1": 1.9366702135821334,
+      "root/2": 1.0389644125809523
+     },
+     "report": {
+      "processed_steps": 350,
+      "skips": {
+       "root": 149,
+       "scalers_unfit": 2,
+       "warming_up": 198,
+       "matured": 350
+      },
+      "interference": {
+       "steps": 350,
+       "mse_delta_mean": 0.0007429232895771233,
+       "mse_delta_max": 0.0034819297263642413
+      }
+     },
+     "budget": {
+      "ratio": 3.1717171717171717,
+      "extra_steps_granted": 1111
+     },
+     "ps3_events_ok": true,
+     "ps3_final_ok": true,
+     "ps4_budget_ok": true,
+     "ps4_summaries_ok": true
+    },
+    "without": {
+     "seed": 8,
+     "with_spu": false,
+     "steps": 1811,
+     "wall_s": 0.9312992080012918,
+     "mse_clean": 1.4680975570799681,
+     "mse_corrupted": 1.286067490075956,
+     "degradation": 0.8760095566359581,
+     "inner_net_eval_std": {
+      "root/1": 5.569921952348788,
+      "root/2": 6.6032670785713785
+     }
+    }
+   },
+   {
+    "with": {
+     "seed": 9,
+     "with_spu": true,
+     "steps": 700,
+     "wall_s": 0.5683299590018578,
+     "mse_clean": 0.7878944621580357,
+     "mse_corrupted": 0.8646863320683986,
+     "degradation": 1.0974646651279039,
+     "inner_net_eval_std": {
+      "root/1": 1.14946531924372,
+      "root/2": 1.0649329473110802
+     },
+     "report": {
+      "processed_steps": 350,
+      "skips": {
+       "root": 149,
+       "scalers_unfit": 2,
+       "warming_up": 198,
+       "matured": 350
+      },
+      "interference": {
+       "steps": 350,
+       "mse_delta_mean": 0.0003902718316796451,
+       "mse_delta_max": 0.004966669224527653
+      }
+     },
+     "budget": {
+      "ratio": 3.1717171717171717,
+      "extra_steps_granted": 1111
+     },
+     "ps3_events_ok": true,
+     "ps3_final_ok": true,
+     "ps4_budget_ok": true,
+     "ps4_summaries_ok": true
+    },
+    "without": {
+     "seed": 9,
+     "with_spu": false,
+     "steps": 1811,
+     "wall_s": 0.9189233750003041,
+     "mse_clean": 1.822380101167113,
+     "mse_corrupted": 1.5035496539406397,
+     "degradation": 0.8250472297067535,
+     "inner_net_eval_std": {
+      "root/1": 2.728854371270697,
+      "root/2": 4.683656869480805
+     }
+    }
+   }
+  ],
+  "clean": [
+   {
+    "with": {
+     "seed": 7,
+     "with_spu": true,
+     "steps": 700,
+     "wall_s": 0.571755042001314,
+     "mse_clean": 0.4475214284744344,
+     "mse_corrupted": 0.619103199072981,
+     "degradation": 1.3834045917833597,
+     "inner_net_eval_std": {
+      "root/1": 1.272188424410697,
+      "root/2": 0.9754815001918751
+     },
+     "report": {
+      "processed_steps": 350,
+      "skips": {
+       "root": 149,
+       "scalers_unfit": 2,
+       "warming_up": 198,
+       "matured": 350
+      },
+      "interference": {
+       "steps": 350,
+       "mse_delta_mean": 0.00024370747346108256,
+       "mse_delta_max": 0.008536075611422889
+      }
+     },
+     "budget": {
+      "ratio": 3.1717171717171717,
+      "extra_steps_granted": 1111
+     },
+     "ps3_events_ok": true,
+     "ps3_final_ok": true,
+     "ps4_budget_ok": true,
+     "ps4_summaries_ok": true
+    },
+    "without": {
+     "seed": 7,
+     "with_spu": false,
+     "steps": 1811,
+     "wall_s": 0.9380772499935119,
+     "mse_clean": 0.7747413985068796,
+     "mse_corrupted": 0.914106724218426,
+     "degradation": 1.1798862510511743,
+     "inner_net_eval_std": {
+      "root/1": 3.809312587645713,
+      "root/2": 2.608206482538241
+     }
+    }
+   },
+   {
+    "with": {
+     "seed": 8,
+     "with_spu": true,
+     "steps": 700,
+     "wall_s": 0.5597916250044364,
+     "mse_clean": 0.45528121936704247,
+     "mse_corrupted": 0.5786005822127593,
+     "degradation": 1.2708641551636204,
+     "inner_net_eval_std": {
+      "root/1": 1.7349614721196132,
+      "root/2": 0.6884165628646285
+     },
+     "report": {
+      "processed_steps": 350,
+      "skips": {
+       "root": 149,
+       "scalers_unfit": 2,
+       "warming_up": 198,
+       "matured": 350
+      },
+      "interference": {
+       "steps": 350,
+       "mse_delta_mean": 0.0006023072404779116,
+       "mse_delta_max": 0.010525445359887475
+      }
+     },
+     "budget": {
+      "ratio": 3.1717171717171717,
+      "extra_steps_granted": 1111
+     },
+     "ps3_events_ok": true,
+     "ps3_final_ok": true,
+     "ps4_budget_ok": true,
+     "ps4_summaries_ok": true
+    },
+    "without": {
+     "seed": 8,
+     "with_spu": false,
+     "steps": 1811,
+     "wall_s": 0.9304138750012498,
+     "mse_clean": 0.614275295384876,
+     "mse_corrupted": 0.6586259949906961,
+     "degradation": 1.0722000378967413,
+     "inner_net_eval_std": {
+      "root/1": 4.56300635434378,
+      "root/2": 1.00173473368716
+     }
+    }
+   },
+   {
+    "with": {
+     "seed": 9,
+     "with_spu": true,
+     "steps": 700,
+     "wall_s": 0.5732414579979377,
+     "mse_clean": 0.6823809258348892,
+     "mse_corrupted": 0.7486456228706648,
+     "degradation": 1.097108073404457,
+     "inner_net_eval_std": {
+      "root/1": 0.7659092073106645,
+      "root/2": 1.5817653704721995
+     },
+     "report": {
+      "processed_steps": 350,
+      "skips": {
+       "root": 149,
+       "scalers_unfit": 2,
+       "warming_up": 198,
+       "matured": 350
+      },
+      "interference": {
+       "steps": 350,
+       "mse_delta_mean": 0.0006017598514101123,
+       "mse_delta_max": 0.00493382480000254
+      }
+     },
+     "budget": {
+      "ratio": 3.1717171717171717,
+      "extra_steps_granted": 1111
+     },
+     "ps3_events_ok": true,
+     "ps3_final_ok": true,
+     "ps4_budget_ok": true,
+     "ps4_summaries_ok": true
+    },
+    "without": {
+     "seed": 9,
+     "with_spu": false,
+     "steps": 1811,
+     "wall_s": 0.9177335420026793,
+     "mse_clean": 0.8392895040624166,
+     "mse_corrupted": 0.8207092460459335,
+     "degradation": 0.9778619201997059,
+     "inner_net_eval_std": {
+      "root/1": 1.8635256302274665,
+      "root/2": 6.179288945840749
+     }
+    }
+   }
+  ]
+ }
+}

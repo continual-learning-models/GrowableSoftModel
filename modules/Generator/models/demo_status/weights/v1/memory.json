@@ -1,0 +1,9 @@
+{
+  "map": {
+    "shipped out": "SHIPPED",
+    "delivered": "DELIVERED",
+    "cancelled by user": "CANCELLED",
+    "awaiting payment": "PENDING"
+  },
+  "trained_on": 4
+}

@@ -1,0 +1,60 @@
+{
+ "adam_steps": 100,
+ "sgd_steps": 20,
+ "sgd_lr": 0.01,
+ "out_steps": [
+  0,
+  50,
+  100
+ ],
+ "configs": {
+  "F1": {
+   "kind": "numeric",
+   "add_class_at": null,
+   "loss0": 1.2784196499362066,
+   "loss_last": 0.0061407425824396835
+  },
+  "F2": {
+   "kind": "numeric",
+   "add_class_at": null,
+   "loss0": 1.7200327812261413,
+   "loss_last": 0.00010707990630586588
+  },
+  "F3": {
+   "kind": "numeric",
+   "add_class_at": null,
+   "loss0": 1.1435328836022232,
+   "loss_last": 3.4391550374636932e-06
+  },
+  "F4": {
+   "kind": "categorical",
+   "add_class_at": null,
+   "loss0": 1.7501094291958346,
+   "loss_last": 0.004822200464427939
+  },
+  "F5": {
+   "kind": "categorical",
+   "add_class_at": null,
+   "loss0": 3.049894256087982,
+   "loss_last": 0.00012777464006455663
+  },
+  "F6": {
+   "kind": "numeric",
+   "add_class_at": null,
+   "loss0": 0.9688681316665868,
+   "loss_last": 6.070955957696903e-06
+  },
+  "F7": {
+   "kind": "categorical",
+   "add_class_at": null,
+   "loss0": 3.4751500808094202,
+   "loss_last": 5.440919743683986e-05
+  },
+  "F8": {
+   "kind": "categorical",
+   "add_class_at": 50,
+   "loss0": 2.093449723336676,
+   "loss_last": 0.02290027079434479
+  }
+ }
+}

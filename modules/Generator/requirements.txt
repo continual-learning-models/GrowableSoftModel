@@ -1,0 +1,6 @@
+# SoftModel core: the organ backend (numpy), CLI, and REST API.
+# No GPU, no foundation model — the calling LLM supplies general capability.
+numpy>=1.26
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6

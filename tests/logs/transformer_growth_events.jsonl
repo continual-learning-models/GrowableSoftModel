@@ -1,0 +1,61 @@
+{"ts": 1783111433.14, "event": "create", "description": ""}
+{"ts": 1783111433.54, "event": "study", "n": 200, "steps": 100, "loss": 0.002238}
+{"ts": 1783111433.54, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [1.0, 0.2, 0.1, 0.0, 0.0]}
+{"ts": 1783111433.55, "event": "commit", "version": "v1", "score": 1.0, "live": 0.0, "note": "course:stage1"}
+{"ts": 1783111434.28, "event": "study", "n": 400, "steps": 100, "loss": 0.000729}
+{"ts": 1783111434.28, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [1.0, 0.98, 0.42, 0.06, 0.02]}
+{"ts": 1783111434.3, "event": "commit", "version": "v2", "score": 1.0, "live": 0.79, "note": "course:stage2"}
+{"ts": 1783111435.35, "event": "study", "n": 600, "steps": 100, "loss": 0.001461}
+{"ts": 1783111435.36, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.68, 0.66, 0.42, 0.08, 0.0]}
+{"ts": 1783111436.08, "event": "study", "n": 400, "steps": 100, "loss": 9.2e-05}
+{"ts": 1783111437.13, "event": "study", "n": 600, "steps": 100, "loss": 0.000377}
+{"ts": 1783111437.13, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [1.0, 0.94, 0.86, 0.12, 0.04]}
+{"ts": 1783111437.15, "event": "commit", "version": "v3", "score": 0.9384615384615385, "live": 0.8538461538461538, "note": "course:stage3"}
+{"ts": 1783111438.54, "event": "study", "n": 800, "steps": 100, "loss": 0.001833}
+{"ts": 1783111438.54, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.5, 0.44, 0.34, 0.22, 0.02]}
+{"ts": 1783111439.59, "event": "study", "n": 600, "steps": 100, "loss": 0.000118}
+{"ts": 1783111440.97, "event": "study", "n": 800, "steps": 100, "loss": 0.000461}
+{"ts": 1783111440.98, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.66, 0.7, 0.68, 0.22, 0.04]}
+{"ts": 1783111442.03, "event": "study", "n": 600, "steps": 100, "loss": 0.000103}
+{"ts": 1783111443.42, "event": "study", "n": 800, "steps": 100, "loss": 0.000214}
+{"ts": 1783111443.42, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.9, 0.72, 0.88, 0.34, 0.06]}
+{"ts": 1783111443.43, "event": "grow", "nodes": ["layer0/ffn[3]", "layer1/ffn[10]"], "params": 11907, "depth": 2}
+{"ts": 1783111445.26, "event": "study", "n": 800, "steps": 100, "loss": 0.000167}
+{"ts": 1783111445.27, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.9, 0.72, 0.86, 0.24, 0.02]}
+{"ts": 1783111447.12, "event": "study", "n": 800, "steps": 100, "loss": 0.000108}
+{"ts": 1783111447.12, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.94, 0.76, 0.88, 0.32, 0.04]}
+{"ts": 1783111448.98, "event": "study", "n": 800, "steps": 100, "loss": 0.000113}
+{"ts": 1783111448.98, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.92, 0.76, 0.88, 0.28, 0.02]}
+{"ts": 1783111450.81, "event": "study", "n": 800, "steps": 100, "loss": 8e-05}
+{"ts": 1783111450.81, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.96, 0.74, 0.9, 0.28, 0.04]}
+{"ts": 1783111452.2, "event": "study", "n": 600, "steps": 100, "loss": 2.1e-05}
+{"ts": 1783111454.03, "event": "study", "n": 800, "steps": 100, "loss": 0.000164}
+{"ts": 1783111454.04, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.88, 0.86, 0.84, 0.38, 0.0]}
+{"ts": 1783111455.44, "event": "study", "n": 600, "steps": 100, "loss": 2.9e-05}
+{"ts": 1783111457.54, "event": "study", "n": 800, "steps": 100, "loss": 0.000731}
+{"ts": 1783111457.54, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.64, 0.68, 0.7, 0.5, 0.02]}
+{"ts": 1783111457.54, "event": "grow", "nodes": ["layer0/ffn[7]", "layer0/ffn[1]"], "params": 12997, "depth": 2}
+{"ts": 1783111459.81, "event": "study", "n": 800, "steps": 100, "loss": 6.6e-05}
+{"ts": 1783111459.81, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.94, 0.92, 0.92, 0.46, 0.0]}
+{"ts": 1783111462.09, "event": "study", "n": 800, "steps": 100, "loss": 0.00598}
+{"ts": 1783111462.09, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.06, 0.0, 0.0, 0.0, 0.0]}
+{"ts": 1783111464.38, "event": "study", "n": 800, "steps": 100, "loss": 5.3e-05}
+{"ts": 1783111464.39, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.96, 0.92, 0.92, 0.5, 0.0]}
+{"ts": 1783111466.67, "event": "study", "n": 800, "steps": 100, "loss": 4e-05}
+{"ts": 1783111466.68, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.94, 0.92, 0.92, 0.5, 0.04]}
+{"ts": 1783111466.68, "event": "grow", "nodes": ["layer1/ffn[10]::root[2]", "layer1/ffn[10]::root[14]"], "params": 14087, "depth": 3}
+{"ts": 1783111469.52, "event": "study", "n": 800, "steps": 100, "loss": 6.4e-05}
+{"ts": 1783111469.52, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.92, 0.92, 0.92, 0.54, 0.02]}
+{"ts": 1783111472.41, "event": "study", "n": 800, "steps": 100, "loss": 3.7e-05}
+{"ts": 1783111472.42, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.94, 0.92, 0.96, 0.56, 0.04]}
+{"ts": 1783111475.37, "event": "study", "n": 800, "steps": 100, "loss": 5.9e-05}
+{"ts": 1783111475.38, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.9, 0.88, 0.9, 0.42, 0.02]}
+{"ts": 1783111478.26, "event": "study", "n": 800, "steps": 100, "loss": 3.1e-05}
+{"ts": 1783111478.26, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.94, 0.92, 0.98, 0.58, 0.02]}
+{"ts": 1783111481.13, "event": "study", "n": 800, "steps": 100, "loss": 0.000109}
+{"ts": 1783111481.13, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.92, 0.88, 0.78, 0.44, 0.02]}
+{"ts": 1783111483.33, "event": "study", "n": 600, "steps": 100, "loss": 9.4e-05}
+{"ts": 1783111486.18, "event": "study", "n": 800, "steps": 100, "loss": 0.000477}
+{"ts": 1783111486.18, "event": "evaluate", "names": ["stage1", "stage2", "stage3", "stage4", "stage5"], "stage_accs": [0.88, 0.82, 0.64, 0.36, 0.02]}
+{"ts": 1783111488.36, "event": "study", "n": 600, "steps": 100, "loss": 5.2e-05}
+{"ts": 1783111488.39, "event": "commit_rejected", "working": 0.7875, "live": 0.79375}

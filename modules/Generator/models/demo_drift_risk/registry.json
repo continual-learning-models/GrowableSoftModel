@@ -1,0 +1,39 @@
+{
+  "model_id": "demo_drift_risk",
+  "description": "",
+  "active": "v2",
+  "versions": [
+    {
+      "version": "v0",
+      "parent": null,
+      "score": null,
+      "note": "untrained",
+      "created": 1782969329.633067
+    },
+    {
+      "version": "v1",
+      "parent": "v0",
+      "score": 1.0,
+      "note": "taught 12 examples",
+      "created": 1782969329.6981142
+    },
+    {
+      "version": "v2",
+      "parent": "v1",
+      "score": 1.0,
+      "note": "taught 12 examples (window=12)",
+      "created": 1782969329.720684
+    }
+  ],
+  "drift": {
+    "model_id": "demo_drift_risk",
+    "active_version": "v2",
+    "recent_metric": 1.0,
+    "recent_n_evaluated": 8,
+    "baseline_metric": 1.0,
+    "drift_tolerance": 0.15,
+    "drifted": false,
+    "needs_reteach": false,
+    "checked_at": 1782969329.722479
+  }
+}

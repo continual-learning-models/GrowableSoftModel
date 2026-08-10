@@ -1,0 +1,38 @@
+{
+ "rows": [
+  {
+   "seed": 0,
+   "move": "grow",
+   "adopt": true,
+   "audited": true,
+   "final": 13.333333333333334,
+   "baseline": 11.0,
+   "pref_w": 1.0
+  },
+  {
+   "seed": 1,
+   "move": "grow",
+   "adopt": false,
+   "audited": true,
+   "final": 15.5,
+   "baseline": 13.5,
+   "pref_w": 1.0
+  },
+  {
+   "seed": 2,
+   "move": "grow",
+   "adopt": true,
+   "audited": true,
+   "final": 16.5,
+   "baseline": 7.166666666666667,
+   "pref_w": 1.0
+  }
+ ],
+ "verdict": {
+  "L-J1-a": true,
+  "L-J1-b": true,
+  "L-J1-c": true,
+  "L-J1-d": true,
+  "ALL": true
+ }
+}

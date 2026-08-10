@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generator"
+version = "0.6.1"
+description = "SoftModel Model — a factory for evolvable soft models (intelligent specialized small models) an LLM can both use and teach."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "SoftModel" }]
+keywords = ["llm", "tool-use", "continual-learning", "soft-model", "evolvable", "specialized-model", "small-model"]
+
+# Core deps: the organ backend (numpy), CLI, and REST API.
+dependencies = [
+    "numpy>=1.26",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+generator = "generator.cli:main"
+generator-mcp = "generator.mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/continual-learning-models/GrowableSoftModel"
+
+[tool.setuptools]
+packages = ["generator"]

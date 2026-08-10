@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "GrowableSoftModel"
+authors:
+  - family-names: "Xie"
+    given-names: "Zhoumin"
+license: AGPL-3.0-only
+preferred-citation:
+  type: article
+  title: "SoftModel: A Neural Model That Grows Its Own Topology — Governed Structural Growth for Continual In-Service Learning"
+  authors:
+    - family-names: "Xie"
+      given-names: "Zhoumin"
+  year: 2026

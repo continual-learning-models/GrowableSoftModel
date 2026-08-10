@@ -1,0 +1,28 @@
+{
+  "model_id": "demo_risk",
+  "description": "risk triage organ: LOW/HIGH from LLM-extracted features",
+  "active": "v1",
+  "versions": [
+    {
+      "version": "v0",
+      "parent": null,
+      "score": null,
+      "note": "untrained",
+      "created": 1782969329.482187
+    },
+    {
+      "version": "v1",
+      "parent": "v0",
+      "score": 1.0,
+      "note": "taught 12 examples",
+      "created": 1782969329.5493371
+    },
+    {
+      "version": "v2",
+      "parent": "v1",
+      "score": 0.75,
+      "note": "taught 6 examples",
+      "created": 1782969329.5767858
+    }
+  ]
+}

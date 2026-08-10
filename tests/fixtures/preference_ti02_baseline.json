@@ -1,0 +1,14 @@
+{
+ "applied": [
+  "rho@0",
+  "deepen"
+ ],
+ "arms": [
+  "widen",
+  "deepen"
+ ],
+ "captured_on": "pre-implementation tree (84 D-2)",
+ "dec_sha": "f3cc7ce4c19b04d9871b35d7c56c673a5d53ca8fee35b8e633725fbd1e3a6d78",
+ "fn_sha": "ae1301851b3d0136bb24cfc50c42742b019300884176f1dc594fb20a38a0e196",
+ "mse": 0.008906756098437225
+}

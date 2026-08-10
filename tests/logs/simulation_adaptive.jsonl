@@ -1,0 +1,102 @@
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.7748208090468897, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005241134678395093, "applied": "rho@1", "params": 35}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}
+{"sim": "adaptivity", "compositional_arm": "deepen", "additive_arm": "widen", "tiers": ["tier2", "tier2"]}
+{"sim": "deepen_pays", "pre_mse": 0.2698175757880906, "post_mse": 0.09864029059679601, "ablation_delta": 2.0824371952227176, "serial_depth": 2, "params": 31}
+{"sim": "widen_pays", "pre_mse": 0.05015202321873195, "post_mse": 0.005179417419705188, "applied": "rho@1", "params": 38}
+{"sim": "absolute_quality", "held_out_r2": 0.8220230060706042, "params": 31, "bytes_approx": 248}

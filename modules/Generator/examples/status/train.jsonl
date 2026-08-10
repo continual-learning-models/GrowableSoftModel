@@ -1,0 +1,8 @@
+{"input": "shipped out", "target": "SHIPPED"}
+{"input": "delivered!!!", "target": "DELIVERED"}
+{"input": "cancelled by user", "target": "CANCELLED"}
+{"input": "awaiting payment", "target": "PENDING"}
+{"input": "on its way", "target": "SHIPPED"}
+{"input": "arrived at destination", "target": "DELIVERED"}
+{"input": "order canceled", "target": "CANCELLED"}
+{"input": "not yet processed", "target": "PENDING"}

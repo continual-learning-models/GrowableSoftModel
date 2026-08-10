@@ -1,0 +1,312 @@
+{
+ "censused": [
+  {
+   "file": "core/lifecycle.py",
+   "scope": "",
+   "name": "TOL",
+   "value": 0.5
+  },
+  {
+   "file": "core/plasticity/policy.py",
+   "scope": "",
+   "name": "WIDEN_SAT",
+   "value": 0.5
+  },
+  {
+   "file": "core/plasticity/policy.py",
+   "scope": "",
+   "name": "UNIFORM_FACTOR",
+   "value": 2.0
+  },
+  {
+   "file": "core/plasticity/policy.py",
+   "scope": "",
+   "name": "ESCALATE_DISPOSED",
+   "value": 2
+  },
+  {
+   "file": "core/plasticity/refound.py",
+   "scope": "",
+   "name": "INV_ALARM",
+   "value": 0.5
+  },
+  {
+   "file": "core/plasticity/refound.py",
+   "scope": "",
+   "name": "INV_CONSECUTIVE",
+   "value": 3
+  },
+  {
+   "file": "core/plasticity/refound.py",
+   "scope": "",
+   "name": "DISPOSED_ALARM",
+   "value": 2
+  },
+  {
+   "file": "core/plasticity/refound.py",
+   "scope": "",
+   "name": "LP_FLAT",
+   "value": 0.001
+  },
+  {
+   "file": "core/plasticity/run_self.py",
+   "scope": "",
+   "name": "STEPS_PER_BLOCK",
+   "value": 200
+  },
+  {
+   "file": "core/plasticity/run_self.py",
+   "scope": "",
+   "name": "LP_FLAT",
+   "value": 0.02
+  },
+  {
+   "file": "core/plasticity/run_self.py",
+   "scope": "",
+   "name": "SAT_DEMAND",
+   "value": 0.35
+  },
+  {
+   "file": "core/plasticity/run_self.py",
+   "scope": "",
+   "name": "QUIZ_N",
+   "value": 96
+  },
+  {
+   "file": "core/plasticity/run_self.py",
+   "scope": "",
+   "name": "VAR_EPS",
+   "value": 0.05
+  },
+  {
+   "file": "core/plasticity/run_self.py",
+   "scope": "",
+   "name": "VAR_FLAG",
+   "value": 3.0
+  },
+  {
+   "file": "core/plasticity/self_review.py",
+   "scope": "",
+   "name": "RETENTION_SAG",
+   "value": -0.03
+  },
+  {
+   "file": "core/substrate.py",
+   "scope": "",
+   "name": "B_NEG",
+   "value": -10.0
+  },
+  {
+   "file": "core/substrates/growable_attention.py",
+   "scope": "GrowableAttentionSubstrate",
+   "name": "WINDOW",
+   "value": 16
+  },
+  {
+   "file": "core/substrates/heads.py",
+   "scope": "",
+   "name": "B_NEG",
+   "value": -10.0
+  },
+  {
+   "file": "core/substrates/sequence.py",
+   "scope": "SequenceSubstrate",
+   "name": "INNER_LR_FACTOR",
+   "value": 0.1
+  },
+  {
+   "file": "core/substrates/transformer.py",
+   "scope": "TransformerSubstrate",
+   "name": "WINDOW",
+   "value": 16
+  },
+  {
+   "file": "core/substrates/transformer.py",
+   "scope": "TransformerSubstrate",
+   "name": "INNER_LR_FACTOR",
+   "value": 0.3
+  },
+  {
+   "file": "core/teaching.py",
+   "scope": "",
+   "name": "V_MAX",
+   "value": 0.05
+  },
+  {
+   "file": "core/teaching.py",
+   "scope": "",
+   "name": "R_MIN",
+   "value": 0.9
+  },
+  {
+   "file": "core/teaching.py",
+   "scope": "",
+   "name": "SPIKE",
+   "value": 0.15
+  },
+  {
+   "file": "core/teaching.py",
+   "scope": "",
+   "name": "STUCK_GAIN",
+   "value": 0.01
+  },
+  {
+   "file": "core/teaching.py",
+   "scope": "",
+   "name": "STUCK_WINDOW",
+   "value": 4
+  },
+  {
+   "file": "modules/Engine/engine/backends/numpy_backend.py",
+   "scope": "NumpyBackend",
+   "name": "NLL_CLAMP",
+   "value": 10.0
+  },
+  {
+   "file": "modules/Engine/engine/backends/torch_backend.py",
+   "scope": "TorchBackend",
+   "name": "NLL_CLAMP",
+   "value": 10.0
+  },
+  {
+   "file": "modules/Generator/generator/rules.py",
+   "scope": "",
+   "name": "_MAX_RULES",
+   "value": 32
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/curriculum.py",
+   "scope": "",
+   "name": "TOL",
+   "value": 0.5
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growthpolicy/backtest_rolling.py",
+   "scope": "",
+   "name": "_MIN_LEN",
+   "value": 64
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growthpolicy/changepoint_bocpd.py",
+   "scope": "",
+   "name": "_MIN_LEN",
+   "value": 64
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growthpolicy/changepoint_bocpd.py",
+   "scope": "",
+   "name": "_RECENT",
+   "value": 32
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growthpolicy/extrapolate_domhan.py",
+   "scope": "",
+   "name": "_MIN_LEN",
+   "value": 64
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growthpolicy/forecastability_spectral.py",
+   "scope": "",
+   "name": "_MIN_LEN",
+   "value": 64
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/instrument.py",
+   "scope": "",
+   "name": "V_MAX",
+   "value": 0.05
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/instrument.py",
+   "scope": "",
+   "name": "R_MIN",
+   "value": 0.9
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/instrument.py",
+   "scope": "",
+   "name": "SPIKE",
+   "value": 0.15
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/instrument.py",
+   "scope": "",
+   "name": "STUCK_GAIN",
+   "value": 0.01
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/instrument.py",
+   "scope": "",
+   "name": "STUCK_WINDOW",
+   "value": 4
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/net.py",
+   "scope": "",
+   "name": "ETA_TARGET",
+   "value": 0.5
+  },
+  {
+   "file": "core/substrates/growable_attention.py",
+   "scope": "GrowableAttentionSubstrate",
+   "name": "INNER_LR_FACTOR",
+   "value": 0.3
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growth_store.py",
+   "scope": "",
+   "name": "_DEFAULT_KEEP",
+   "value": 8
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growthpolicy/preference.py",
+   "scope": "",
+   "name": "_TAIL_MAX",
+   "value": 20
+  }
+ ],
+ "allowlist": [
+  {
+   "file": "core/substrates/base.py",
+   "scope": "",
+   "name": "CONTRACT_V",
+   "value": 1,
+   "reason": "protocol version"
+  },
+  {
+   "file": "modules/Engine/engine/loop_ops.py",
+   "scope": "",
+   "name": "C_G",
+   "value": 1.128994,
+   "reason": "mathematical property (GELU Lipschitz); derivation-guarded"
+  },
+  {
+   "file": "modules/Engine/engine/spu/spu_objective.py",
+   "scope": "",
+   "name": "_EPS",
+   "value": 1e-12,
+   "reason": "numeric-stability epsilon"
+  },
+  {
+   "file": "core/selfassess.py",
+   "scope": "",
+   "name": "_EPS0",
+   "value": 1e-09,
+   "reason": "numeric-stability epsilon in the relative stall test (doc 29 2.1 GAP-C); not a behavioral parameter"
+  },
+  {
+   "file": "modules/ReferenceNet/reference_net/growth_store.py",
+   "scope": "",
+   "name": "SCHEMA_VERSION",
+   "value": 1,
+   "reason": "store index schema/protocol version"
+  },
+  {
+   "file": "modules/RLTrainer/rl_trainer/eval_provider.py",
+   "scope": "",
+   "name": "EVAL_SEED_NS",
+   "value": 9000000,
+   "reason": "quarantine seed-namespace boundary (protocol constant: eval episodes live in a namespace disjoint from rollout streams by construction; changing it breaks replay provenance, it is not a tunable behavior parameter)"
+  }
+ ]
+}

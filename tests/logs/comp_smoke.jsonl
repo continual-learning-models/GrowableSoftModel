@@ -1,0 +1,3 @@
+{"seed": 1, "widen_loss": 0.225827064735579, "deepen_loss": 0.2786503868032021, "widen_params": 26, "deepen_params": 24, "winner": "widen"}
+{"seed": 2, "widen_loss": 0.22699317031729913, "deepen_loss": 0.07193288985307787, "widen_params": 26, "deepen_params": 24, "winner": "deepen"}
+{"seed": 3, "widen_loss": 0.22918187853528912, "deepen_loss": 0.22272687644210926, "widen_params": 26, "deepen_params": 24, "winner": "deepen"}

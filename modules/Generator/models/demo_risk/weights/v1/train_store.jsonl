@@ -1,0 +1,12 @@
+{"input": {"amount": 100, "night": 0, "foreign": 0}, "target": "LOW", "t": 1782969329.514348}
+{"input": {"amount": 50, "night": 0, "foreign": 0}, "target": "LOW", "t": 1782969329.514349}
+{"input": {"amount": 200, "night": 0, "foreign": 0}, "target": "LOW", "t": 1782969329.51435}
+{"input": {"amount": 300, "night": 1, "foreign": 0}, "target": "LOW", "t": 1782969329.5143511}
+{"input": {"amount": 150, "night": 0, "foreign": 1}, "target": "LOW", "t": 1782969329.514352}
+{"input": {"amount": 250, "night": 0, "foreign": 1}, "target": "LOW", "t": 1782969329.514353}
+{"input": {"amount": 900, "night": 0, "foreign": 0}, "target": "HIGH", "t": 1782969329.514354}
+{"input": {"amount": 700, "night": 1, "foreign": 0}, "target": "HIGH", "t": 1782969329.514355}
+{"input": {"amount": 1200, "night": 0, "foreign": 1}, "target": "HIGH", "t": 1782969329.5143561}
+{"input": {"amount": 600, "night": 1, "foreign": 1}, "target": "HIGH", "t": 1782969329.514357}
+{"input": {"amount": 100, "night": 1, "foreign": 1}, "target": "HIGH", "t": 1782969329.514358}
+{"input": {"amount": 50, "night": 1, "foreign": 1}, "target": "HIGH", "t": 1782969329.514359}

@@ -1,0 +1,47 @@
+{
+ "files": {
+  "fx1_artifact.pkl": "b1c624cbdbffc4d7bd5e1d5d19f8932575ffb39830e0aa28bfe08b272cba9f51",
+  "fx1_records.npz": "0e84d2cb805cb5bcd4fba1c6d6255bf3fd85eaae5e67599bca90a9f3426034d3",
+  "fx2_pre_train.pkl": "a29b2f4f2e0b3d3464fafef76fc4af5edfbb1911035fba98b7c9d955bb7ca667",
+  "fx2_records.npz": "0671ad30ad421d02beae39d8cc939681e2f9c6bc881b3d879570a67ffdd09a3a",
+  "fx3_delta.npz": "e45b97c107931c23dc631b1846f889c76e85049fcdee9b2b3c3b647f413ee78f",
+  "fx3_rho.npz": "038f7b23ea2123990e3af38b2338697cb25656a24eb31e72d1ce728957f35a99",
+  "fx3_site.npz": "0cf11cdc07d2c52bb19b744f554dd682b254c6700854a9b4c3ae5835cfe63d85",
+  "fx3_site_artifact.pkl": "f0d5993877cc7d782b85aea5f89fc4d6825890a31b87ab525f60dd7c706c397e",
+  "fx4_dup_pre.pkl": "a594251f5907ab56cb10a00c07c7db846c3545823c35265181e95b6c43c33c7e",
+  "fx4_guard_pre.pkl": "0b731a178b1e600c4aecc70408f0d49ecdca93fe9b13fb4817d4580441d844a7",
+  "fx4_ptype_pre.pkl": "295219581f915b0f8a283e77f7cd9da2ae7f558b6e084f0065c38d6f7bcb28f6"
+ },
+ "fixtures": {
+  "FX-1": {
+   "scenario": "grow(0,4)+grow(1,4)+deepen after 120 warm steps, 4 recorded steps",
+   "state_hash": "22ba78578b0f366b4ce915167bc4b839bb036b99f8d1b7b8ba466f5e6f8b58f7"
+  },
+  "FX-2": {
+   "scenario": "ONE shared site, TWO bodies (j=0, j=2), 4 recorded steps (site-shared Adam counter)",
+   "state_hash": "03e9ec14015da63df7ae5f2e46a63532186252dc5f93b2cff1b44fa8ff3b66c0"
+  },
+  "FX-3": {
+   "delta": "0f9623176574b5af5a6dc266fd24314d93347553736ead64408cf7167676a787",
+   "rho": "97f096cc668481eb89a290f1d9f6affcf296190bb6de67a85369ee9c1f2cc10d"
+  },
+  "FX-4": {
+   "duplicate": {
+    "error_head": "node 0 already composite",
+    "state_hash": "374940ebbf63a7ddf2d1ad8691de1a530402e1cf9a55ad79d97b8d9e274deb43"
+   },
+   "guard_refuse": {
+    "error_head": "scale-hierarchy violation: host trained only 5 steps < 100 (",
+    "post_seed_counter": 34,
+    "state_hash_post": "1c913b552e7939e82771d2eb77ed230023481bc7e282f5c4092061ac190e7891",
+    "state_hash_pre": "c0978fbe2dcef843e2ba236aa4c63e67fc7ec81be97cde9efbba05be4ddb5756"
+   },
+   "port_type": {
+    "error_head": "grow_port_type 'legacy_scalar' is refused for new growth: le",
+    "state_hash": "04e81b75e6791038616e59eac3782489f926ef16adf40f38fb5466118f75b567"
+   }
+  }
+ },
+ "purpose": "adjustment-batch baseline (53 P0 / 54 s2)",
+ "tag": "growthport-v1"
+}

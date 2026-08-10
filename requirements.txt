@@ -1,0 +1,9 @@
+# GrowableSoftModel runtime dependencies.
+# No GPU, no foundation model — the calling LLM supplies general capability.
+# The MCP servers are dependency-free; numpy is the only hard requirement
+# for the model itself. FastAPI/uvicorn/pydantic are needed only for the
+# optional REST API.
+numpy>=1.26
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
